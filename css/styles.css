@@ -1,10 +1,20 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+
+@font-face {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  }
 
 body{
-    margin: 0 auto;
+    margin: 0;
+    background-color: #F5E1FD;
 }
 
-
+/*
 p {
     max-width: 600px;
     margin: 0 auto;
   }
+*/
+

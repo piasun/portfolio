@@ -1,0 +1,27 @@
+a {
+   text-decoration: none;
+   cursor: pointer; 
+}
+
+.cta {
+    border: #5D157E solid 1px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0.8rem 3.5rem ;
+    padding: 0.2rem 2rem;
+}
+
+.item-1 .cta {
+    color: #5D157E;
+    box-shadow: -3px 3px 6px #5D157E;
+}
+
+.item-2 .cta {
+    color: #103444;
+    box-shadow: -3px 3px 6px #103444;
+}
+
+.item-3 .cta {
+    color: #a21085;
+    box-shadow: -3px 3px 6px #a21085;
+}

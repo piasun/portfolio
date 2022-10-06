@@ -70,10 +70,9 @@ nav li span {
   display: block;
 }
 
-/*
-p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-*/
+.divider {
+  border-top: 3px solid;
+  border-radius: 5px;
+  margin: 20px;
+}
 

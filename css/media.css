@@ -1,7 +1,41 @@
 @media (min-width:600px) {
 
+    .scroll-projects {
+        height: 50rem;
+        width: 30rem;
+
+    }
+
+    .single-project {
+        margin: 4rem 2rem;
+    }
+
     .project-details {
        align-items: stretch;
 
+    }
+}
+
+@media (min-width: 800px) {
+    .menu-btn {
+      display: none;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+  
+    nav {
+      display: block;
+      position: static;
+      background: none;
+    }
+  
+    nav li {
+      display: inline-block;
+      padding: 10px;
     }
 }

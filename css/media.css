@@ -1,7 +1,7 @@
 @media (min-width:600px) {
 
     .scroll-projects {
-        height: 50rem;
+        height: 39rem;
         width: 30rem;
 
     }
@@ -10,10 +10,6 @@
         margin: 4rem 2rem;
     }
 
-    .project-details {
-       align-items: stretch;
-
-    }
 }
 
 @media (min-width: 800px) {

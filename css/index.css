@@ -2,8 +2,9 @@ h2 {
     font-weight: bold;
 }
 
-.about, .project-container {
-    margin: auto;
+.about, .project-container, .skills-container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -27,6 +28,7 @@ h2 {
 button {
   float: right;
   margin: 10px 30px;
+  padding: 10px;
   cursor: pointer;
   background-color:#F5E1FD;
   border-radius: 3px;

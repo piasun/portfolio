@@ -14,7 +14,7 @@
     justify-content: space-evenly;
     gap: 2rem;
     max-width: 1200px;
-    margin: auto;
+    margin: 3rem auto;
 }
 
 .portfolio-item {
@@ -36,6 +36,8 @@
     margin-bottom: 2rem;
 }
 
+/*buttons*/
+
 .portfolio .buttons {
     display: flex;
     flex-direction: column;
@@ -44,11 +46,15 @@
 .cta {
     font-size: 18px;
     text-align: center;
-    transition: box-shadow 0.7s;
     margin-top: 2rem;
-    box-shadow: var(--section);
     padding: 0.5rem 5rem;
     color: var(--main);
-    text-decoration: underline;
+    border: var(--main) 2px solid;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background: var(--main);
+    color: var(--background);
 }
 

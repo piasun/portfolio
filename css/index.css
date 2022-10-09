@@ -19,17 +19,7 @@ html {
   border-radius: 50%;
   animation: pulse 1s infinite;
 }
-/*
 
-@keyframes pulse{
-0% {
-  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
-}
-100% {
-  box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
-}
-} 
-*/
 .intro h1{
   color: var(--main);
   margin: 1.5rem 0;
@@ -240,11 +230,8 @@ html {
   border-radius: 50%;
 }
 
-/*
-
 .portfolio-item .icons i:hover {
   background-color: var(--main);
   color:var(--background);
   border: var(--background) 2px solid;
 }
-*/

@@ -54,6 +54,9 @@ html {
 }
 
 /*about section*/
+.about-container {
+  background-color: #EAC1F1;
+}
 
 .skills_container {
   width: 80%;
@@ -120,6 +123,7 @@ html {
 
 .skills-card:hover .skills-icon{
   transform: translateY(-100%);
+  border: #F5E1FD 2px solid;
 }
 
 .skills-card h3 {

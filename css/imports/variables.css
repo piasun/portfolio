@@ -1,6 +1,10 @@
 :root {
-    --text-paragraph: "";
-    --text-header: "";
-
+    /*fonts*/
+    --text: "Open Sanns";
+    --header: "Domine";
+    
+    /*colors*/
+    --background:#F5E1FD;
+    --main:#0a3d62;
 
 }

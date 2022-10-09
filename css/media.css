@@ -3,7 +3,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
   
-
 }
 
 @media (min-width: 800px) {
@@ -29,8 +28,19 @@
       padding: 10px;
     }
 
+  }
+
+  @media (min-width: 900px){
+
+    .skills-wrapper {
+      display: flex;
+      flex-direction: row;
+      grid-gap: 30px;
+      margin-top: 50px;
+    }
+  }
+
    
-}
 
 @media (min-width: 1000px){
   .portfolio-content {

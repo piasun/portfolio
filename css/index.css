@@ -50,7 +50,7 @@ html {
 
 @keyframes arrow{
   0%{ color:#3c6382;}
-  50%{color: #0a3d62;}
+  50%{color: #F5E1FD;}
   100%{color: #3c6382;}
 }
 
@@ -157,17 +157,14 @@ html {
 }
 
 .portfolio-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
-  max-width: 1200px;
-  margin: auto;
+  margin: 30px 10px;
 }
 
 .portfolio-item {
-  flex: 0 0 350px;
-  margin: 1rem auto;
+  position: relative;
 }
 
 .portfolio-content img{
@@ -231,8 +228,11 @@ html {
   border-radius: 50%;
 }
 
+/*
+
 .portfolio-item .icons i:hover {
   background-color: var(--main);
   color:var(--background);
   border: var(--background) 2px solid;
 }
+*/

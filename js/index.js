@@ -1,3 +1,4 @@
+
 //email js//
 
 function validate() {
@@ -38,7 +39,7 @@ function success() {
     swal({
         title:"Email sent successfully",
         text:"I will get back to you as soon as possible",
-        icon: "Success",
+        icon: "success",
     });
 }
 

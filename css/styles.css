@@ -68,7 +68,6 @@ nav li span {
   display: block;
 }
 
-
 .divider {
   border-top: 3px solid;
   border-radius: 5px;
@@ -103,7 +102,7 @@ nav li span {
 
 /*footer*/
 footer i {
-  background: white;
+  background: var(--background);
   color: var(--main);
   padding: 0.5rem;
   margin: 1rem 0.2rem;
@@ -117,7 +116,7 @@ footer h3 {
 
 footer i:hover{
   background: var(--main);
-  color: white;
+  color: var(--background);
   cursor: pointer;
 }
 

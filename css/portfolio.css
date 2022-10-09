@@ -36,4 +36,19 @@
     margin-bottom: 2rem;
 }
 
+.portfolio .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    font-size: 18px;
+    text-align: center;
+    transition: box-shadow 0.7s;
+    margin-top: 2rem;
+    box-shadow: var(--section);
+    padding: 0.5rem 5rem;
+    color: var(--main);
+    text-decoration: underline;
+}
 

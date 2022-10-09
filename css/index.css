@@ -55,11 +55,23 @@ html {
 }
 
 /*about section*/
+.about-container {
+  display: grid;
+  grid-template-rows: 0.8fr 1fr;
+  gap: 2rem;
+  margin: 30px 10px;
+}
+
 .profile-section {
-  display: block;
-  background-color: var(--section);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--section);
   color: var(--main);
-  padding: 20px;
+}
+
+.profile-container{
+  padding: 10px;
 }
 
 .aboutme-info {

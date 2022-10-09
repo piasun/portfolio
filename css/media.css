@@ -28,21 +28,21 @@
       padding: 10px;
     }
 
-  }
-
-  @media (min-width: 900px){
-
-    .skills-wrapper {
-      display: flex;
-      flex-direction: row;
-      grid-gap: 30px;
-      margin-top: 50px;
+    .about-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: none;
     }
-  }
 
-   
+  }
 
 @media (min-width: 1000px){
+  .skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+    margin-top: 50px;
+  }
+
   .portfolio-content {
     grid-template-columns: repeat(3, 1fr);
   }

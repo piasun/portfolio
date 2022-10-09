@@ -19,13 +19,6 @@ header{
   min-height: 50px;
 }
 
-.logo {
-  font-family: var(--text-header), serif;
-  font-size: 30px;
-  color: var(--main);
-  font-weight: bold;
-}
-
 /*header navigation*/
 
 nav {

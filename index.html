@@ -35,6 +35,109 @@
             <i class="fa fa-long-arrow-down arrow"></i>
             </a>
         </section>
+        <section class="about_container">
+            <div class="profile"></div>
+            <div id="skills-section" class="bg-light section-padding">
+                <div class="skills_container">
+                    <h2 class="headline center">My Skills</h2>
+                    <hr class="divider center">
+                    <div class="skills-wrapper">
+                        <div class="skills-card">
+                            <div class="skills-icon"><i class="fa-brands fa-html5"></i></div>
+                            <h3>HTML</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="skills-card">
+                            <div class="skills-icon"><i class="fa-brands fa-css3"></i></div>
+                            <h3>CSS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="skills-card">
+                            <div class="skills-icon"><i class="fa-brands fa-js"></i></div>
+                            <h3>JavaScript</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="project-container">
+                <div class="title">
+                    <h2 class="headline center">My portfolio</h2>
+                    <hr class="divider center">
+                <div class="portfolio-content">
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="images/RE-website.png" alt="overview of the home page of RE-yourself website">
+                        </div>
+                        <div class="hover-item">
+                            <h3>RE-yourself</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <div class="icons">
+                                <a href="https://github.com/piasun/project-exam-1-piasun" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://piasun-reyourself.netlify.app/index.html" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="images/RainyDays_website.png" alt="overview of the home page of RainyDays website">
+                        </div>
+                        <div class="hover-item">
+                            <h3>RainyDays</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <div class="icons">
+                                <a href="https://github.com/piasun/project-exam-1-piasun" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://piasun-reyourself.netlify.app/index.html" target="_blank">
+                                    <i class="fa-solid fa-browser"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="images/ComSciMus_website.png" alt="overview of the home page of Community Science Museum website">
+                        </div>
+                        <div class="hover-item">
+                            <h3>Community Science Museum</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <div class="icons">
+                                <a href="https://github.com/piasun/project-exam-1-piasun" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://piasun-reyourself.netlify.app/index.html" target="_blank">
+                                    <i class="fa-solid fa-browser"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+        <section class="contact_container" id="contact">
+            <h2 class="headline center">Lets have a chat</h2>
+            <hr class="divider center">
+            <form action="" class="contact-form" id="contact-form">
+                <input type="text" placeholder="Your name" class="name" required>
+                <input type="email" name="" id="" placeholder="Email address.." class="email" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+                <input type="submit" value="Send" class="send-btn">
+            </form>
+        </section>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("Y9l-N8m6D-GaVmye0");
+            })();           
+        </script>
       </main>
       <script src="js/index.js"></script>
 </body>
